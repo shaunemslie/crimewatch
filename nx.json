@@ -52,7 +52,14 @@
       },
       "library": {
         "style": "tailwind",
-        "linter": "eslint"
+        "linter": "eslint",
+        "compiler": "swc",
+        "bundler": "vite",
+        "minimal": true,
+        "simpleName": true,
+        "globalCss": true,
+        "directory": "libs/",
+        "unitTestRunner": "none"
       }
     }
   }

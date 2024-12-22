@@ -1,9 +1,6 @@
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
-    <div>
-      <NxWelcome title="crimewatch" />
+    <div className="w-full h-screen bg-zinc-800">
     </div>
   );
 }
